@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AboutUs from "./components/ContactUs/AboutUs";
+import ContactUs from "./components/ContactUs/ContactUs";
+import Footer from "./components/Footer/Footer";
+
+import Header from "./components/Header/Header";
+import InteriorWorks from "./components/InteriorWorks/InteriorWorks";
+import LandingPage from "./components/LandingPage/LandingPage";
+import OfficeProducts from "./components/OfficeProducts/OfficeProducts";
+import Teams from "./components/Teams/Teams";
 
 function App() {
+  const [isNotified, setIsNotified] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isNotified && (
+        <div class="notification is-link">
+          <button class="delete"></button>
+          Primar lorem ipsum dolor sit amet, consectetur adipiscing elit lorem
+          ipsum dolor. <strong>Discount 10%</strong>, tempus quis
+        </div>
+      )}
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="about-us" element={<AboutUs />} />
+        <Route path="office-products" element={<OfficeProducts />} />
+        <Route path="teams" element={<Teams />} />
+        <Route path="interior-works" element={<InteriorWorks />} />
+      </Routes>
+      <hr />
+      <Footer />
     </div>
   );
 }
