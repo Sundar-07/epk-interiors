@@ -83,6 +83,18 @@ function ContactUs() {
                     </div>
                   </div>
                   <div className="field">
+                    <label className="label">Phone number</label>
+                    <div className="control">
+                      <input
+                        className="input is-medium"
+                        type="number"
+                        name="customer_mobile"
+                        placeholder="Enter your mobile number"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div className="field">
                     <label className="label">Email</label>
                     <div className="control">
                       <input
