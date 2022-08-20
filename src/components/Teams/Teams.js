@@ -21,24 +21,24 @@ function Teams() {
       <br />
       <div className="columns">
         <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-3by2">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-3by2">
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4 has-text-centered">John Smith</p>
-                  <p class="subtitle is-6 has-text-centered">@Designation</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4 has-text-centered">John Smith</p>
+                  <p className="subtitle is-6 has-text-centered">@Designation</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>
@@ -49,24 +49,24 @@ function Teams() {
           </div>
         </div>
         <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-3by2">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-3by2">
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4 has-text-centered">John Smith</p>
-                  <p class="subtitle is-6 has-text-centered">@Designation</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4 has-text-centered">John Smith</p>
+                  <p className="subtitle is-6 has-text-centered">@Designation</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>
@@ -77,24 +77,24 @@ function Teams() {
           </div>
         </div>
         <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-3by2">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-3by2">
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4 has-text-centered">John Smith</p>
-                  <p class="subtitle is-6 has-text-centered">@Designation</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4 has-text-centered">John Smith</p>
+                  <p className="subtitle is-6 has-text-centered">@Designation</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>
@@ -108,24 +108,24 @@ function Teams() {
       <br />
       <div className="columns">
         <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-3by2">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-3by2">
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4 has-text-centered">John Smith</p>
-                  <p class="subtitle is-6 has-text-centered">@Designation</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4 has-text-centered">John Smith</p>
+                  <p className="subtitle is-6 has-text-centered">@Designation</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>
@@ -136,24 +136,24 @@ function Teams() {
           </div>
         </div>
         <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-3by2">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-3by2">
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4 has-text-centered">John Smith</p>
-                  <p class="subtitle is-6 has-text-centered">@Designation</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4 has-text-centered">John Smith</p>
+                  <p className="subtitle is-6 has-text-centered">@Designation</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>
@@ -164,24 +164,24 @@ function Teams() {
           </div>
         </div>
         <div className="column">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-3by2">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-3by2">
                 <img
                   src="https://bulma.io/images/placeholders/1280x960.png"
                   alt="Placeholder image"
                 />
               </figure>
             </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4 has-text-centered">John Smith</p>
-                  <p class="subtitle is-6 has-text-centered">@Designation</p>
+            <div className="card-content">
+              <div className="media">
+                <div className="media-content">
+                  <p className="title is-4 has-text-centered">John Smith</p>
+                  <p className="subtitle is-6 has-text-centered">@Designation</p>
                 </div>
               </div>
 
-              <div class="content">
+              <div className="content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                 <a href="#">#css</a> <a href="#">#responsive</a>

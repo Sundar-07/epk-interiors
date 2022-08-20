@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import EPKlogo from "../../assets/epk_logo.png";
 
+
 function Header() {
   let navigate = useNavigate();
   const [isActive, setisActive] = React.useState(false);
@@ -11,7 +12,7 @@ function Header() {
       <nav
         className="navbar has-shadow is-white"
         role="navigation"
-        aria-label="main navigation"
+        aria-label="main navigation dropdown"
       >
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
@@ -44,7 +45,7 @@ function Header() {
               Home
             </a>
 
-            <div className="navbar-item has-dropdown is-hoverable">
+            <div className='navbar-item has-dropdown is-hoverable'>
               <a className="navbar-link">Services</a>
 
               <div className="navbar-dropdown">
@@ -73,7 +74,7 @@ function Header() {
               About Us
             </a>
           </div>
-
+          {/* Contact us */}
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">

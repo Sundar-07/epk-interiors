@@ -14,7 +14,7 @@ import SecurityAcc from "../../assets/icons/mobile-security.png";
 
 function ListsOfProducts() {
   return (
-    <div>
+    <div className="container section">
       <div className="columns  is-multiline is-mobile">
         <div className="column ">
           <figure className="image is-64x64">

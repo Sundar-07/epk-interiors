@@ -12,7 +12,7 @@ function InteriorWorks() {
       <h1 className="title">Our Works</h1>
       <hr />
       <h3 className="subtitle">Interior Works</h3>
-      <section className="hero welcome is-small">
+      <section className="section welcome is-small">
         <div className="columns">
           <div className="column is-3">
             <figure className="image">

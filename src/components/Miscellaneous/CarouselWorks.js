@@ -1,8 +1,6 @@
 import React from "react";
-// Import Swiper React components
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
+import { Pagination } from "swiper";
 import Clients from "./clients.json";
 
 // Import Swiper styles
@@ -18,22 +16,21 @@ function CarouselWorks() {
         slidesPerView={5}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination]}
         pagination={{ clickable: true }}
       >
         {Clients &&
-          Clients.map((item, index) => {
+          Clients.map((item) => {
             return (
               <>
-                <SwiperSlide>
-                  <figure class="image is-128x128">
+                <SwiperSlide key={item.id}>
+                  <figure className="image is-128x128">
                     <img src={item.url} alt={item.description} />
                   </figure>
                 </SwiperSlide>
               </>
             );
           })}
-       
       </Swiper>
     </div>
   );

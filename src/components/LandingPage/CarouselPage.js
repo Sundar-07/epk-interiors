@@ -22,7 +22,7 @@ function CarouselPage() {
         navigation={true}
       >
         <SwiperSlide>
-          <figure class="image is-3by2">
+          <figure className="image is-3by2">
             <img
               src="https://picsum.photos/800/600/?random"
               alt="Description"
@@ -30,7 +30,7 @@ function CarouselPage() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure class="image is-3by2">
+          <figure className="image is-3by2">
             <img
               src="https://picsum.photos/800/600/?random"
               alt="Description"
@@ -38,7 +38,7 @@ function CarouselPage() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure class="image is-3by2">
+          <figure className="image is-3by2">
             <img
               src="https://picsum.photos/800/600/?random"
               alt="Description"
@@ -46,7 +46,7 @@ function CarouselPage() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure class="image is-3by2">
+          <figure className="image is-3by2">
             <img
               src="https://picsum.photos/800/600/?random"
               alt="Description"
@@ -54,7 +54,7 @@ function CarouselPage() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure class="image is-3by2">
+          <figure className="image is-3by2">
             <img
               src="https://picsum.photos/800/600/?random"
               alt="Description"
@@ -62,7 +62,7 @@ function CarouselPage() {
           </figure>
         </SwiperSlide>
         <SwiperSlide>
-          <figure class="image is-3by2">
+          <figure className="image is-3by2">
             <img
               src="https://picsum.photos/800/600/?random"
               alt="Description"
