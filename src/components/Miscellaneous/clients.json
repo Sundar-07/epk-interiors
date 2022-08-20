@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "description": "khivraj logo",
+    "url": "/assets/clients/khivraj.jpg"
+  },
+  {
+    "id": 2,
+    "description": "olympia logo",
+    "url": "/assets/clients/olympia.jpg"
+  },
+  {
+    "id": 3,
+    "description": "zentech logo",
+    "url": "/assets/clients/zentech.jpg"
+  },
+  {
+    "id": 4,
+    "description": "EPK Clients",
+    "url": "/assets/clients/4.jpg"
+  },
+  {
+    "id": 5,
+    "description": "EPK Clients",
+    "url": "/assets/clients/5.jpg"
+  },
+  {
+    "id": 6,
+    "description": "EPK Clients",
+    "url": "/assets/clients/6.jpg"
+  },
+  {
+    "id": 7,
+    "description": "EPK Clients",
+    "url": "/assets/clients/7.jpg"
+  },
+  {
+    "id": 8,
+    "description": "EPK Clients",
+    "url": "/assets/clients/8.jpg"
+  },
+  {
+    "id": 9,
+    "description": "EPK Clients",
+    "url": "/assets/clients/9.jpg"
+  },
+  {
+    "id": 10,
+    "description": "EPK Clients",
+    "url": "/assets/clients/10.jpg"
+  },
+  {
+    "id": 11,
+    "description": "EPK Clients",
+    "url": "/assets/clients/11.jpg"
+  },
+  {
+    "id": 12,
+    "description": "EPK Clients",
+    "url": "/assets/clients/12.jpg"
+  },
+  {
+    "id": 13,
+    "description": "EPK Clients",
+    "url": "/assets/clients/13.jpg"
+  },
+  {
+    "id": 14,
+    "description": "EPK Clients",
+    "url": "/assets/clients/14.jpg"
+  },
+  {
+    "id": 15,
+    "description": "EPK Clients",
+    "url": "/assets/clients/15.jpg"
+  }
+]

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import EPKlogo from "../../assets/epk_logo.png";
 
 function Header() {
   let navigate = useNavigate();
@@ -14,11 +15,7 @@ function Header() {
       >
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
-            <img
-              src="https://bulma.io/images/bulma-logo.png"
-              width="112"
-              height="28"
-            />
+            <img src={EPKlogo} width="120" height="28" />
           </a>
 
           <a
@@ -51,13 +48,21 @@ function Header() {
               <a className="navbar-link">Services</a>
 
               <div className="navbar-dropdown">
-                <a className="navbar-item" onClick={() => navigate("/interior-works")}>Interior Works</a>
-                <a className="navbar-item" onClick={() => navigate("/office-products")}>
+                <a
+                  className="navbar-item"
+                  onClick={() => navigate("/interior-works")}
+                >
+                  Interior Works
+                </a>
+                <a
+                  className="navbar-item"
+                  onClick={() => navigate("/office-products")}
+                >
                   Office Products
                 </a>
-                <a className="navbar-item">Contact</a>
+                {/* <a className="navbar-item">Contact</a>
                 <hr className="navbar-divider" />
-                <a className="navbar-item">Report an issue</a>
+                <a className="navbar-item">Report an issue</a> */}
               </div>
             </div>
 
@@ -72,7 +77,10 @@ function Header() {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-primary" onClick={() => navigate("/contact-us")} >
+                <a
+                  className="button is-primary"
+                  onClick={() => navigate("/contact-us")}
+                >
                   <strong>Contact Us</strong>
                 </a>
                 {/* <a className="button is-light">Log in</a> */}

@@ -5,12 +5,23 @@ import DesignBg from "../../assets/landing page/designbg.jpg";
 function LandingPage() {
   return (
     <div>
-      <section className="hero is-medium" style={{backgroundImage:`url(${DesignBg})`,opacity: 0.9}}>
+      <section
+        className="hero is-medium"
+        style={{ backgroundImage: `url(${DesignBg})`, opacity: 0.9 }}
+      >
         <div className="hero-body has-text-centered">
-          <h1 className="title is-2 has-text-white">
-            Design term for "trust me, you'll like it"
-          </h1>
-          <h3 className="subtitle has-text-white">Some content</h3>
+          <div
+            className="mx-auto box p-auto has-background-light"
+            style={{ borderRadius: "20px" }}
+          >
+            <h1 className="title is-2 has-text-dark">
+              Design term for "trust me, you'll like it"
+            </h1>
+            <h3 className="subtitle has-text-dark">
+              Interior design consciously and subconsciously influences people’s
+              moods and energy on a daily basis.{" "}
+            </h3>
+          </div>
         </div>
       </section>
 

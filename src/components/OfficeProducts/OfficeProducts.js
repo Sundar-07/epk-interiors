@@ -25,8 +25,21 @@ function OfficeProducts() {
         {/* ListsOfProducts */}
 
         <ListsOfProducts />
-    <br/>
-        {/* Subcribe */}
+        <br />
+        <section className="section has-background-danger" style={{borderRadius:"15px"}}>
+          <div className="container">
+            <h3 className="has-text-centered has-text-white is-size-5">
+              Office design also conveys the type of business it is. For
+              instance, a lawyer&apos;s office may appear more sophisticated and
+              professional with darker colors and straight lines, while a
+              graphic design office may be more fun and creative with bright
+              colors and designs. This is an important factor to consider
+              because it shows the business&apos;s function and purpose.
+            </h3>
+          </div>
+        </section>
+        <br />
+        {/* Subcribe notify */}
       </div>
       <section className="hero is-dark welcome is-small">
         <div className="hero-body">
@@ -34,7 +47,10 @@ function OfficeProducts() {
             <h1 className="title has-text-centered">
               Contact us for more exclusive offers!
             </h1>
-            <p className="subtitle has-text-centered">Get 10% discount and be the first to know about new collections and offers.</p>
+            <p className="subtitle has-text-centered">
+              Get 10% discount and be the first to know about new collections
+              and offers.
+            </p>
 
             <div className="box has-background-dark">
               <div className="field is-grouped">

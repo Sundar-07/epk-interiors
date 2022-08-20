@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AboutUs from "./components/ContactUs/AboutUs";
-import ContactUs from "./components/ContactUs/ContactUs";
+import AboutUs from "./components/Miscellaneous/AboutUs";
+import ContactUs from "./components/Miscellaneous/ContactUs";
 import Footer from "./components/Footer/Footer";
 
 import Header from "./components/Header/Header";

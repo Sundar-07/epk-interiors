@@ -4,7 +4,21 @@ function Teams() {
   return (
     <div className="container">
       <br />
-      <h1 className="title">Our Teams</h1><hr/>
+      <h1 className="title">Our Teams</h1>
+      <hr />
+      <div
+        className="section has-background-warning"
+        style={{ borderRadius: "15px" }}
+      >
+        <p className="has-text-dark">
+          Employees often spend more time in the office than they do at home.
+          With that in mind, it makes sense that well-designed offices can
+          increase employee morale, productivity, efficiency, and overall
+          attitude at home. The idea is to make the office a place they want to
+          be, not where they have to be.
+        </p>
+      </div>
+      <br />
       <div className="columns">
         <div className="column">
           <div class="card">
